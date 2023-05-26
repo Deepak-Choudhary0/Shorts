@@ -66,7 +66,7 @@ class ThumbnailPage extends StatefulWidget {
 
 class _ThumbnailPageState extends State<ThumbnailPage> {
   List<dynamic> videos = [];
-  int page = 0;
+  int page = 1;
   bool isLoading = false;
 
   Future<void> fetchVideos() async {
@@ -79,7 +79,6 @@ class _ThumbnailPageState extends State<ThumbnailPage> {
     if (response.statusCode == 200) {
       setState(() {
         videos.addAll(json.decode(response.body)['data']['posts']);
-        page++;
         isLoading = false;
       });
     } else {
@@ -110,7 +109,10 @@ class _ThumbnailPageState extends State<ThumbnailPage> {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                          builder: (context) => rough.TikTokPage()),
+                          builder: (context) => rough.TikTokPage(value: [
+                                page,
+                                index,
+                              ])),
                     );
                   },
                   leading: CircleAvatar(

@@ -30,11 +30,21 @@ class _SplashScreenState extends State<SplashScreen> {
       body: Center(
         child: ClipRRect(
           borderRadius: BorderRadius.circular(20),
+          // child: Image.asset(
+          //   'lib/assets/logo.png',
+          //   width: 200,
+          //   height: 200,
+          // ),
           child: Image.network(
-            'https://play-lh.googleusercontent.com/53M-KrDLmYQCPafCOQvE6AnV32RpfE4oZ4Z_emnQSLuBAoWKrZgNj_w8gkPdyX6BAQ=w240-h480-rw',
+            'https://store-images.s-microsoft.com/image/apps.4784.13634052595610511.c45457c9-b4af-46b0-8e61-8d7c0aec3f56.3d483847-81a6-4078-8f83-a35c5c38ee92?w=120',
             width: 200,
             height: 200,
           ),
+          // child: Image.network(
+          //   'https://play-lh.googleusercontent.com/53M-KrDLmYQCPafCOQvE6AnV32RpfE4oZ4Z_emnQSLuBAoWKrZgNj_w8gkPdyX6BAQ=w240-h480-rw',
+          //   width: 200,
+          //   height: 200,
+          // ),
         ),
       ),
     );
@@ -55,11 +65,21 @@ class NextScreen extends StatelessWidget {
           ),
           ClipRRect(
             borderRadius: BorderRadius.circular(20),
+            // child: Image.asset(
+            //   'lib/assets/logo.png',
+            //   width: 200,
+            //   height: 200,
+            // ),
             child: Image.network(
-              'https://play-lh.googleusercontent.com/53M-KrDLmYQCPafCOQvE6AnV32RpfE4oZ4Z_emnQSLuBAoWKrZgNj_w8gkPdyX6BAQ=w240-h480-rw',
+              'https://store-images.s-microsoft.com/image/apps.4784.13634052595610511.c45457c9-b4af-46b0-8e61-8d7c0aec3f56.3d483847-81a6-4078-8f83-a35c5c38ee92?w=120',
               width: 200,
               height: 200,
             ),
+            // child: Image.network(
+            //   'https://play-lh.googleusercontent.com/53M-KrDLmYQCPafCOQvE6AnV32RpfE4oZ4Z_emnQSLuBAoWKrZgNj_w8gkPdyX6BAQ=w240-h480-rw',
+            //   width: 200,
+            //   height: 200,
+            // ),
           ),
           const SizedBox(
             height: 50,

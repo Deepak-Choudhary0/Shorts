@@ -20,7 +20,8 @@ class ThumbnailsPage extends StatelessWidget {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => rough.TikTokPage()));
+                            builder: (context) =>
+                                rough.TikTokPage(value: [0, index])));
                   },
                   leading: CircleAvatar(
                     backgroundImage: NetworkImage(data[2][index].toString()),
