@@ -14,17 +14,63 @@ These are the apks which you can download and use the Shorts app:
 - [app-armeabi-v7a-release](https://drive.google.com/file/d/1J4LOv6rbMik9Sify6jHwhz17OfAwTAAy/view?usp=sharing)
 - [app-x86_64-release](https://drive.google.com/file/d/1FZzDDMhEVLOCGLKpxiMOzKmtFQuSnmsA/view?usp=sharing)
 
+## Prerequisites
+
+Before you can run this project, make sure you have the following prerequisites installed on your system:
+
+- Flutter SDK: [Install Flutter](https://flutter.dev/docs/get-started/install)
+- Dart SDK: [Install Dart](https://dart.dev/get-dart)
+- Flutter IDE (optional): [Visual Studio Code](https://code.visualstudio.com/) or [Android Studio](https://developer.android.com/studio)
+
+## Clone the Repository
+
+To clone this repository, open a terminal or command prompt and run the following command:
+
+```bash
+git clone https://github.com/Deepak-Choudhary0/shorts.git
+```
+
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Once you have cloned the repository, navigate to the project's root directory using the terminal or command prompt:
 
-A few resources to get you started if this is your first Flutter project:
+```
+cd shorts/
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Install Dependencies
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+To install the project dependencies, run the following command:
 
-## Setup
+```
+flutter pub get
+```
+
+This command will download and install all the required packages and dependencies for the Flutter project.
+
+Run the Application
+To run the Flutter application, use the following command:
+
+```
+flutter run
+```
+
+This command will launch the application on a connected device or emulator. Make sure you have a device connected or an emulator running before executing this command.
+
+## Build the Application
+
+If you want to build the application for production, you can use the following command:
+
+```
+flutter build <platform>
+```
+
+Replace <platform> with the target platform for building the application (e.g., apk for Android or ios for iOS). The built application files will be generated in the build/ directory.
+
+## Contributing
+
+If you would like to contribute to this project, please fork the repository, make your changes, and submit a pull request.
+
+## License
+
+This project is made by Deepak Choudhary.
